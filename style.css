@@ -1,0 +1,30 @@
+body,html{
+    width:100%;
+    position: absolute;
+}
+.textblock{
+    display:block;
+    overflow: hidden;
+    width:100%;
+    margin-left:2%;
+    position: relative;
+    /*
+    width : 200px;
+    height: 500px;
+    float: left;
+    */
+}
+.settings, .resulttext{
+    display: block;
+    float: left;
+    position: relative;
+}
+.settings{
+    width:20%;
+    margin-left:2%;
+
+}
+.resulttext {
+    overflow: scroll;
+    width:70%;
+}
